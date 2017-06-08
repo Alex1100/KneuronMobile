@@ -17,7 +17,7 @@ class LectureEntry extends Component {
   }
 
   onLiveClassJoin() {
-    
+
     console.log("this is current lecture!!!!!!!!!!!", CurrentLecture)
     console.log('this is the lecture.topics please fuckking workkk broo', this.props.lecture.topics);
     console.log("this is props lecture!!!!!!!!!!!", this.props)
@@ -27,7 +27,7 @@ class LectureEntry extends Component {
     CurrentLecture(lecture);
     // console.log('this is the variable in line 26 of lecture entry ', variable);
     return this.state.live ? Actions.livelecture() : null;
-    } 
+    }
 
 
   render() {
